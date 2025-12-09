@@ -31,4 +31,16 @@ emotion_classification/
 └── README.md                    # This file
 
 
+Notes:
+Run these files in order
+
+check_installation.py → Verify environment
+check_gpu.py → Confirm GPU setup
+test_setup.py → Validate dataset
+train.py → Train the model
+evaluate_model.py → Check performance
+gui_inference.py → Use the application
+* download the data set and update the path in config.py
+
+
 Used dataset: https://www.kaggle.com/datasets/sdeogade/voice-emotion-classification

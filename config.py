@@ -4,7 +4,7 @@ Configuration file for emotion classification system
 import torch
 
 # Dataset Configuration
-DATASET_PATH = r"C:\Users\MSI\Desktop\emotion_classification\emotion by voice(dataset)\Voice Emotion Dataset"  # Update this
+DATASET_PATH = r"path/to/dataset"  # Update the path
 EMOTIONS = ['anger', 'disgust', 'fear', 'happy', 'neutral', 'sad']
 NUM_CLASSES = len(EMOTIONS)
 
@@ -45,4 +45,5 @@ MIC_SAMPLE_RATE = 22050
 USE_AUGMENTATION = True
 TIME_STRETCH_RATE = [0.8, 1.2]
 PITCH_SHIFT_STEPS = [-2, 2]
+
 NOISE_FACTOR = 0.005
